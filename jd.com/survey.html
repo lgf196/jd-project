@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>京东-问卷调查</title>
+		<link rel="shortcut icon" href="favicon.ico"  type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/survey.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ui-base.css"/>
+	</head>
+	<body>
+		<!--顶部开始-->
+		<div id="surveytop">
+			<div class="surveytop">
+				<div class="surveytopT">
+					<img src="img/jsdog.jpg"/>
+					<span>登录页满意度调查</span>
+				</div>
+				<div class="surveytopF">
+					<p>尊敬用户您好：</p>
+					<p>为了给您提供更加完善的服务，我们希望收集并了解您在页面的使用情况。对您的配合和支持表示衷心的感谢！</p>
+				</div>
+			</div>			
+		</div>
+		<!--顶部结束-->
+		<div id="surveymain">
+			<form method="post" action="index.html"  class="surveymain">
+				<div class="surveymainT">
+					<div class="surveymainTT">
+						<p>您对登录页整体满意度如何？</p>
+						<p class="red">本题必答.</p>
+					</div>
+					<div class="surveymainTF">
+						<p><input type="radio" name="radio"/>    非常满意</p>
+						<p><input type="radio" name="radio"/>    满意</p>
+						<p><input type="radio" name="radio"/>    一般</p>
+						<p><input type="radio" name="radio"/>    不满意</p>
+						<p><input type="radio" name="radio"/>    非常不满意</p>
+					</div>
+				</div>
+				<div class="surveymainC">
+					<div class="surveymainCT">您对登录页有什么想法，请大声说出来吧！（例如：哪里有问题，哪些功能做得不够好等）</div>
+					<textarea class="textarea" ></textarea>
+				</div>
+				<div class="surveymainCC">
+					<div class="surveymainCCT">
+						<p>我们会不定期邀请用户参与面对面的交流。如果您有意参与，请填写如下信息，方便我们与您联系，谢谢！（信息仅作为内部资料绝不外泄）</p>
+						<p>如果您对京东的使用体验有任何想法，也欢迎加入我们的京东体验交流QQ群（389453258），输入验证码 jdued 即可成为群内一员！我们也会在群内发布访谈邀请的信息哦！</p>
+					</div>
+					<div class="surveymainCCM">
+						<p><span>姓名</span><input type="text"></p>
+						<p><span>手机号</span><input type="text"></p>
+					</div>
+				</div>
+				<div class="surveymainF"><input type="submit" value="提交"/></div>
+			</form>		
+		</div>
+	</body>
+</html>
